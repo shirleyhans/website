@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Birthday!</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <div class="home">
+
+    <video autoplay loop muted class="background-video">
+
+      <source src="your-video.mp4" type="video/mp4">
+
+      Your browser does not support the video tag.
+
+    </video>
+
+    <h1 class="birthday-message">Happy Birthday, My Love!</h1>
+
+  </div>
+
+
+
+  <section id="reasons">
+
+    <h2>Reasons I Love You</h2>
+
+  <div class="carousel">
+
+     <div class="reason-item active">
+
+     <img src="reason1.jpg" alt="Reason 1">
+
+    <p>You make me laugh!</p>
+
+     </div>
+
+     <div class="reason-item">
+
+     <img src="reason2.jpg" alt="Reason 2">
+
+   <p>Your smile brightens my day!</p> </div>
+
+  <!-- Add more reason items as needed -->
+
+  <button class="carousel-control prev" onclick="changeSlide(-1)">❮</button>
+
+  <button class="carousel-control next" onclick="changeSlide(1)">❯</button>
+
+  </div>
+
+  </section>
+
+
+
+  <section id="video-message">
+
+    <h2>A Special Message Just for You</h2>
+
+    <video controls>
+
+      <source src="your-message.mp4" type="video/mp4">
+
+      Your browser does not support the video tag.
+    </video>
+
+  </section>
+
+
+
+  <section id="memory-wall">
+
+    <h2>Memory Wall</h2>
+
+    <div class="gallery">
+
+         <img src="memory1.jpg" alt="Memory 1">
+
+         <img src="memory2.jpg" alt="Memory 2">
+
+         <!-- Add more memory images as needed -->
+
+    </div>
+
+  </section>
+
+
+
+  <section id="hidden-surprise">
+
+    <h2>For Your Eyes Only</h2>
+
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="checkPassword()">Unlock</button>
+
+ <div class="envelope" id="envelope">
+
+     <div class="flap"></div>
+
+     <div class="content">
+
+     <video autoplay controls>
+
+    <source src="your-message.mp4" type="video/mp4">
+
+   Your browser does not support the video tag.
+
+     </video>
+
+     </div>
+
+</div>
+
+  </section>
+
+
+
+  <section id="love-question">
+
+    <h2>Do you love me?</h2>
+
+    <div class="options">
+
+         <button>a) Yes, with all my heart, soul, and whatever organs are left after missing you.</button>
+
+         <button>b) No—because clearly, I enjoy pain and suffering for free.</button>
+
+         <button>c) Of course… unless you’re mad, then I meant “I’m sorry.”</button>
+
+         <button>d) I did… until you sent me this quiz and I realized I’m dating a sweet psycho.</button>
+
+    </div>
+
+  </section>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+
